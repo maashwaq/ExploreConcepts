@@ -1,11 +1,17 @@
 **Java using the Apache ZooKeeper Curator framework**
 
 import org.apache.curator.framework.CuratorFramework;
+
 import org.apache.curator.framework.CuratorFrameworkFactory;
+
 import org.apache.curator.retry.ExponentialBackoffRetry;
+
 import org.apache.curator.framework.recipes.cache.NodeCache;
+
 import org.apache.curator.framework.recipes.cache.NodeCacheListener;
+
 import org.apache.zookeeper.CreateMode;
+
 import org.apache.zookeeper.data.Stat;
 
 public class CuratorExample {
